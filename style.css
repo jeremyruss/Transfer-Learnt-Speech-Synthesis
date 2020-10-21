@@ -1,0 +1,31 @@
+body {
+    background: url("files/Boris.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: Lora;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.audiopl {
+    width: 350px;
+}
+
+#container {
+    width: 1000px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+#briefing {
+    width: 750px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
