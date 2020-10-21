@@ -24,7 +24,7 @@ window.addEventListener("resize", function() {
     console.log(width);
     if (width < 1400) {
         document.body.style.background = 'none';
-        document.getElementById("container").style.width = width - 150 + "px";
+        document.getElementById("container").style.width = width - 100 + "px";
         document.getElementById("container").style.marginRight = "50px";
     } else {
         document.body.style.background = "url('files/Boris.png') no-repeat right top fixed";
