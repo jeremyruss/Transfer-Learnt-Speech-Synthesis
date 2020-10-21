@@ -19,7 +19,7 @@ window.onload = function () {
     }
 }
 
-window.onresize = function () {
+window.addEventListener("resize", function() {
     width = this.innerWidth;
     if (width < 1400) {
         document.body.style.background = 'none';
@@ -29,4 +29,4 @@ window.onresize = function () {
         document.body.style.background = "url('files/Boris.png') no-repeat right top fixed";
         document.getElementById("container").style.width = "1000px";
     }
-}
+});
