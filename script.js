@@ -21,6 +21,7 @@ window.onload = function () {
 
 window.addEventListener("resize", function() {
     width = this.innerWidth;
+    console.log(width);
     if (width < 1400) {
         document.body.style.background = 'none';
         document.getElementById("container").style.width = width - 150 + "px";
